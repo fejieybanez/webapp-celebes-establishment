@@ -5,16 +5,18 @@
     
 <!-- Navigation-->
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-            <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="#page-top">Start Bootstrap</a>
+            <div class="container px-4 px-lg-5">    
+            <div style="text-align: left;"><img src="assets/favicon.png" width="50" alt="..." /></div>
+                <a class="navbar-brand" href="#page-top">Celebes Coconut Corporation</a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#mission">Announcements</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
                         <li class="nav-item"><a class="nav-link" href="#signup">Contact</a></li>
                     </ul>
                 </div>
@@ -25,19 +27,20 @@
             <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
                 <div class="d-flex justify-content-center">
                     <div class="text-center">
-                        <h1 class="mx-auto my-0 text-uppercase">Grayscale</h1>
-                        <h2 class="text-white-50 mx-auto mt-2 mb-5">A free, responsive, one page Bootstrap theme created by Start Bootstrap.</h2>
-                        <a class="btn btn-primary" href="#about">Get Started</a>
+                        <h1 class="mx-auto my-0 text-uppercase">Celebes Coconut Corporation</h1>
+                        <h2 class="text-white-50 mx-auto mt-2 mb-5">Manufacturer of Organic and Fair Trade Certified Coconut Products</h2>
+                        <a class="btn btn-primary" href="#about">See more...</a>
                     </div>
                 </div>
             </div>
-        </header>
+        </header> 
         <!-- About-->
-        <section class="about-section text-center" id="about">
+
+       <!--  <section class="home-section text-center" id="home">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8">
-                        <h2 class="text-white mb-4">Built with Bootstrap 5</h2>
+                        <h2 class="text-white mb-4">Celebes Coconut Corporation</h2>
                         <p class="text-white-50">
                             Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template on
                             <a href="https://startbootstrap.com/theme/grayscale/">the preview page.</a>
@@ -47,29 +50,88 @@
                 </div>
                 <img class="img-fluid" src="assets/img/ipad.png" alt="..." />
             </div>
+        </section>-->
+        <!-- About-->
+        <section class="about-section text-center" id="about">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2 class="text-white mb-4">About</h2>
+                        <p class="text-white-50">
+                        Like the coconut trees that dot the tropical landscape of the Philippines, Celebes stands tall and proud today. 
+                        Its corporate odyssey began without much fanfare in 1981 when it manufactured wood products from timber sourced from its forest concession in Butuan City, Philippines located in the island of Mindanao.
+                        Yet from this modest start emerged one of the country’s largest export oriented enterprises, right at the onset of the New Millennium.
+                        </p>
+                    </div>
+                </div>
+                <img class="img-fluid" src="assets/img/ipad.png" alt="..." width="1650" height="20" />
+            </div>
+        </section>
+         <!-- Mission-->
+        <section class="mission-section text-center" id="mission">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2 class="text-black mb-4">Corporate Mission</h2>
+                        <p class="text-black-50">
+                        To be the No. 1 producer and exporter of world-class coconut products in the Philippines 
+                        </p>
+                    </div>
+                </div>
+            </div>
         </section>
         <!-- Projects-->
-        <section class="projects-section bg-light" id="projects">
+        <section class="products-section bg-light" id="products">
             <div class="container px-4 px-lg-5">
-                <!-- Featured Project Row-->
+                <!-- Featured Product Row-->
                 <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/bg-masthead.jpg" alt="..." /></div>
+                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/product1.jpg" alt="..." width="650" height="20"/></div>
                     <div class="col-xl-4 col-lg-5">
                         <div class="featured-text text-center text-lg-left">
-                            <h4>Shoreline</h4>
-                            <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
+                            <h4>Celebes Coconut Products</h4>
+                            <p class="text-black-50 mb-0">Virgin coconut oil is known for its pleasant scent, taste, antioxidants, medium chain fatty acids(MCFA), and vitamins, not to mention a variety of other things</p>
                         </div>
                     </div>
                 </div>
                 <!-- Project One Row-->
                 <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-01.jpg" alt="..." /></div>
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/producta.jpg" alt="..." width="700" height="500" /></div>
                     <div class="col-lg-6">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Misty</h4>
-                                    <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
+                                    <h4 class="text-white">Coconut Juice</h4>
+                                    <p class="mb-0 text-white-50"> Description here...</p>
+                                    <hr class="d-none d-lg-block mb-0 ms-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project Two Row-->
+                <div class="row gx-0 justify-content-center">
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/productb.jpg" alt="..." width="700" height="500"/></div>
+                    <div class="col-lg-6 order-lg-first">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-right">
+                                    <h4 class="text-white">Coconut Oil</h4>
+                                    <p class="mb-0 text-white-50"> Description here...</p>
+                                    <hr class="d-none d-lg-block mb-0 me-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project One Row-->
+                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/producta.jpg" alt="..." width="700" height="500" /></div>
+                    <div class="col-lg-6">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h4 class="text-white">Coconut Juice</h4>
+                                    <p class="mb-0 text-white-50"> Description here...</p>
                                     <hr class="d-none d-lg-block mb-0 ms-0" />
                                 </div>
                             </div>
@@ -182,6 +244,5 @@
         <!-- Footer-->
         <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; Your Website 2022</div></footer>
         
-
 @endsection
         

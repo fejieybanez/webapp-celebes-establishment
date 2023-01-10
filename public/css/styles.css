@@ -33,7 +33,7 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #64a19d;
+  --bs-primary: #088d3b;
   --bs-secondary: #7464a1;
   --bs-success: #67c29c;
   --bs-info: #1cabc4;
@@ -3034,13 +3034,13 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: #64a19d;
+  background-color: green;
   border-color: #64a19d;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #558985;
-  border-color: #50817e;
+  background-color: rgb(238, 30, 30);
+  border-color: #21d611b4;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
@@ -11504,12 +11504,13 @@ body {
     padding-top: 0;
     padding-bottom: 0;
     border-bottom: none;
-    background-color: transparent;
+    background-color: green;
     transition: background-color 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
     padding: 0.5rem 0;
     color: rgba(255, 255, 255, 0.5);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   #mainNav .nav-link {
     transition: none;
@@ -11526,10 +11527,10 @@ body {
     background-color: #fff;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #000;
+    color: green;
   }
   #mainNav.navbar-shrink .nav-link {
-    color: #000;
+    color: green;
     padding: 1.5rem 1.5rem 1.25rem;
     border-bottom: 0.25rem solid transparent;
   }
@@ -11547,7 +11548,7 @@ body {
 }
 
 .btn {
-  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(103, 194, 156, 0.5) !important;
   padding: 1.25rem 2rem;
   font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 80%;
@@ -11562,25 +11563,43 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/bg-masthead.jpg");
-  background-position: center;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/bg-masthead6.jpg");
+  backdrop-filter: blur(500px);
+  -webkit-backdrop-filter: blur(500px);
+  height: 100%;
+  background-position: top;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
 }
-.masthead h1, .masthead .h1 {
-  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+.masthead h1, .masthead .h1{
+  /*  font-family: cursive;
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
   background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: white;
   -webkit-background-clip: text;
-          background-clip: text;
+          background-clip: text;*/
+
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  /*background-color: rgb(0,0,0); /* Fallback color */
+ /* background-color: rgba(0,0,0, 0.3); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+ /* border: 3px solid #f1f1f1;
+  top: 50%;
+  left: 50%;
+  width: 95%;
+  padding: 20px;*/
 }
 .masthead h2, .masthead .h2 {
   max-width: 20rem;
-  font-size: 1rem;
+  font-size: 3rem;
+  -webkit-text-fill-color:rgba(var(--bs-white-rgb), var(--bs-bg-opacity));
+  text-decoration-line: underline;
+  text-decoration-color: rgba(var(--bs-black-rgb), var(--bs-bg-opacity));
+  
 }
 @media (min-width: 768px) {
   .masthead h1, .masthead .h1 {
@@ -11594,8 +11613,8 @@ body {
     padding: 0;
   }
   .masthead h1, .masthead .h1 {
-    font-size: 6.5rem;
-    line-height: 6.5rem;
+    font-size: 4.2em;
+    line-height: 3.5rem;
     letter-spacing: 0.8rem;
   }
   .masthead h2, .masthead .h2 {
@@ -11612,27 +11631,27 @@ body {
   margin-bottom: 5rem;
 }
 
-.projects-section {
+.products-section {
   padding: 10rem 0;
 }
-.projects-section .featured-text {
+.products-section .featured-text {
   padding: 2rem;
 }
 @media (min-width: 992px) {
-  .projects-section .featured-text {
+  .products-section .featured-text {
     padding: 0 0 0 2rem;
     border-left: 0.5rem solid #64a19d;
   }
 }
-.projects-section .project-text {
+.products-section .project-text {
   padding: 3rem;
   font-size: 90%;
 }
 @media (min-width: 992px) {
-  .projects-section .project-text {
+  .products-section .project-text {
     padding: 5rem;
   }
-  .projects-section .project-text hr {
+  .products-section .project-text hr {
     border-color: #64a19d;
     border-width: 0.25rem;
     width: 30%;
