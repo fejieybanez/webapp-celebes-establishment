@@ -2,7 +2,7 @@
  
  
 @section('content')
-    
+
 <!-- Navigation-->
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
             <div class="container px-4 px-lg-5">    
@@ -34,23 +34,7 @@
                 </div>
             </div>
         </header> 
-        <!-- About-->
-
-       <!--  <section class="home-section text-center" id="home">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-8">
-                        <h2 class="text-white mb-4">Celebes Coconut Corporation</h2>
-                        <p class="text-white-50">
-                            Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template on
-                            <a href="https://startbootstrap.com/theme/grayscale/">the preview page.</a>
-                            The theme is open source, and you can use it for any purpose, personal or commercial.
-                        </p>
-                    </div>
-                </div>
-                <img class="img-fluid" src="assets/img/ipad.png" alt="..." />
-            </div>
-        </section>-->
+       
         <!-- About-->
         <section class="about-section text-center" id="about">
             <div class="container px-4 px-lg-5">
@@ -80,21 +64,205 @@
                 </div>
             </div>
         </section>
-        <!-- Projects-->
-        <section class="products-section bg-light" id="products">
-            <div class="container px-4 px-lg-5">
+        <!-- Product -->
+    <section class="products-section bg-light" id="products">
+    <div class="container px-4 px-lg-55">
                 <!-- Featured Product Row-->
-                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+          <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
                     <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/product1.jpg" alt="..." width="650" height="20"/></div>
                     <div class="col-xl-4 col-lg-5">
                         <div class="featured-text text-center text-lg-left">
                             <h4>Celebes Coconut Products</h4>
-                            <p class="text-black-50 mb-0">Virgin coconut oil is known for its pleasant scent, taste, antioxidants, medium chain fatty acids(MCFA), and vitamins, not to mention a variety of other things</p>
+                            <p class="text-black-50 mb-0"></p>Celebes Coconut Corporation is a trusted manufacturer and exporter of the "Organic Certified" Banana Chips, Coconut Charcoal, Coconut Cream, Coconut Flour, Coconut Juice, Coconut Milk, Coconut Sugar, Coconut Water, Creamed Coconut, Crude Coconut Oil, Dehydrated Fruits, Desiccated Coconut, Frozen Coconut Meat, RBD Coconut Oil, Virgin Coconut Oil and Coconut Water Concentrate.</p>
+                        </div>
+                    </div>
+                </div>
+    <div class="container"> 
+    <div id="slider" class="carousel slide" data-ride="carousel"> 
+        <!--Indicators-->
+        <ol class="carousel-indicators">
+            <li data-target="#slider" data-slide-to="0" class="active"></li>
+            <li data-target="#slider" data-slide-to="1"></li>
+            <li data-target="#slider" data-slide-to="2"></li>
+            <li data-target="#slider" data-slide-to="3"></li>
+            <li data-target="#slider" data-slide-to="4"></li>
+            <li data-target="#slider" data-slide-to="5"></li>
+            <li data-target="#slider" data-slide-to="6"></li>
+            <li data-target="#slider" data-slide-to="7"></li>
+        </ol>
+            <div class="carousel-inner">
+                <div class="item active">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div>
+                                <h3> Organic Coconut Water</h3>
+                                    <p> It is actually the juice found inside a fresh coconut. Its water is an all-natural electrolyte-filled and it is one of the nature's most refreshing drinks consumed worldwide for its nutritious and health benefiting properties.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-8">
+                                    <img src="assets/img/product2.jpg">
+                        </div>
+                    </div>
+                </div>
+             <div class="item">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div>
+                                <h3> Organic Coconut Cream</h3>
+                                    <p> A sweet, milky white cooking base derived from the meat of a mature coconut. The color and taste of the milk can be attributed to the high oil content ans sugar. It is extracted from the grated flesh of the mature coconut. </p> 
+                            </div>
+                        </div>
+                        <div class="col-sm-8">
+                                    <img src="assets/img/product3.jpg">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div>
+                                <h3> Organic Coconut Milk</h3>
+                                    <p> A creamy tropical taste that is utilized mostly to make pastries, additive flavors to your favorite food or dessert recipes, soup and other cooking. Coconut milk provides 50% more calcium than dairy milk. </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-8">
+                                    <img src="assets/img/product4.jpg">
+                        </div>
+                    </div>
+                </div><div class="item">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div>
+                                <h3> Organic Virgin Oil</h3>
+                                    <p> It is a healthy cooking option, which can likewise be used to condition the skin and hair care. Virgin coconut oil is known for its pleasant scent, taste, antioxidants, medium chain fatty acids (MCFA), and vitamins, not to mention a variety of other things.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-8">
+                                    <img src="assets/img/productb.jpg">
+                        </div>
+                    </div>
+                </div><div class="item">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div>
+                                <h3> Organic Desiccated Coconut</h3>
+                                    <p>
+                                        It is known for completing the exact Quality Standard Tests that ensure purity, as well as chemical and microbiological superiority, before handed over the best tables around the globe. 
+                                    </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-8">
+                                    <img src="assets/img/product11.jpg">
+                        </div>
+                    </div>
+                </div><div class="item">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div>
+                                <h3> Organic Creamed Coconut</h3>
+                                    <p> It is the unsweetened dehydrated fresh meat of a mature fruit of coconut ground to a semi-solid white creamy paste. It is fundamentally the same to coconut milk however contains less water. The difference is mainly consistency. 
+                                        </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-8">
+                                    <img src="assets/img/product7.jpg">
+                        </div>
+                    </div>
+                </div><div class="item">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div>
+                                <h3> Organic RDB Coconut Oil</h3>
+                                    <p> It originates from the seeds of Coconut produced using dried whole coconut (Copra). RDB Coconut oil is mormally utilized as a part of numerous skincare formulations and products including soap, lotion, creams, ointments and toiletry industry.
+                                        </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-8">
+                                    <img src="assets/img/product8.jpg">
+                        </div>
+                    </div>
+                </div><div class="item">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div>
+                                <h3> Organic Banana Chips</h3>
+                                    <p> Very crispy and have high nutritional value banana chips made with all natural ingredients and with no artificial flavors, colors or preservatives. 
+                                         </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-8">
+                                    <img src="assets/img/product9.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div><!--Carousel Inner Ends Here-->
+            <!--Left and Right Controls-->
+            <a class= "left carousel-control" href="#slider" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only"> Previous</span>    
+        </a>
+        <a class= "right carousel-control" href="#slider" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only"> Next</span>    
+        </a>
+    </div> <!--Carousel Ends  Here-->
+</div> <!--Container Ends Here-->
+
+        <!--<section class="products-section bg-light" id="products">
+            <div class="container px-4 px-lg-55">
+                <!-- Featured Product Row-->
+            <!--    <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/product1.jpg" alt="..." width="650" height="20"/></div>
+                    <div class="col-xl-4 col-lg-5">
+                        <div class="featured-text text-center text-lg-left">
+                            <h4>Celebes Coconut Products</h4>
+                            <p class="text-black-50 mb-0"></p>Celebes Coconut Corporation is a trusted manufacturer and exporter of the "Organic Certified" Banana Chips, Coconut Charcoal, Coconut Cream, Coconut Flour, Coconut Juice, Coconut Milk, Coconut Sugar, Coconut Water, Creamed Coconut, Crude Coconut Oil, Dehydrated Fruits, Desiccated Coconut, Frozen Coconut Meat, RBD Coconut Oil, Virgin Coconut Oil and Coconut Water Concentrate.</p>
+                        </div>
+                    </div>
+                </div>
+</div>
+        <div class="main-carousel">
+             <div class="cell"><img src="assets/img/product2.jpg"></div>
+             <div class="cell"><img src="assets/img/product3.jpg"></div>
+             <div class="cell"><img src="assets/img/product4.jpg"></div>
+             <div class="cell"><img src="assets/img/productb.jpg"></div>
+             <div class="cell"><img src="assets/img/product11.jpg"></div>
+             <div class="cell"><img src="assets/img/product7.jpg"></div>
+             <div class="cell"><img src="assets/img/product8.jpg"></div>
+             <div class="cell"><img src="assets/img/product9.jpg"></div>
+
+</div>
+
+<!-- JavaScript -->
+<!--<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<script type="text/javascript">
+    $('.main-carousel').flickity({
+  // options
+  cellAlign: 'left',
+  wrapAround:true,
+  freeScroll: true
+});
+
+</script>
+
+
+        
+        <!-- Projects-->
+<!--<section class="products-section bg-light" id="products">
+            <div class="container px-4 px-lg-5">
+                <!-- Featured Product Row-->
+<!--<<div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/product1.jpg" alt="..." width="650" height="20"/></div>
+                    <div class="col-xl-4 col-lg-5">
+                        <div class="featured-text text-center text-lg-left">
+                            <h4>Celebes Coconut Products</h4>
+                            <p class="text-black-50 mb-0"></p>Celebes Coconut Corporation is a trusted manufacturer and exporter of the "Organic Certified" Banana Chips, Coconut Charcoal, Coconut Cream, Coconut Flour, Coconut Juice, Coconut Milk, Coconut Sugar, Coconut Water, Creamed Coconut, Crude Coconut Oil, Dehydrated Fruits, Desiccated Coconut, Frozen Coconut Meat, RBD Coconut Oil, Virgin Coconut Oil and Coconut Water Concentrate.</p>
                         </div>
                     </div>
                 </div>
                 <!-- Project One Row-->
-                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+<!--<<div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
                     <div class="col-lg-6"><img class="img-fluid" src="assets/img/producta.jpg" alt="..." width="700" height="500" /></div>
                     <div class="col-lg-6">
                         <div class="bg-black text-center h-100 project">
@@ -109,7 +277,7 @@
                     </div>
                 </div>
                 <!-- Project Two Row-->
-                <div class="row gx-0 justify-content-center">
+               <!--< <div class="row gx-0 justify-content-center">
                     <div class="col-lg-6"><img class="img-fluid" src="assets/img/productb.jpg" alt="..." width="700" height="500"/></div>
                     <div class="col-lg-6 order-lg-first">
                         <div class="bg-black text-center h-100 project">
@@ -124,7 +292,7 @@
                     </div>
                 </div>
                 <!-- Project One Row-->
-                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+<!--<<div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
                     <div class="col-lg-6"><img class="img-fluid" src="assets/img/producta.jpg" alt="..." width="700" height="500" /></div>
                     <div class="col-lg-6">
                         <div class="bg-black text-center h-100 project">
@@ -139,7 +307,7 @@
                     </div>
                 </div>
                 <!-- Project Two Row-->
-                <div class="row gx-0 justify-content-center">
+              <!--<  <div class="row gx-0 justify-content-center">
                     <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-02.jpg" alt="..." /></div>
                     <div class="col-lg-6 order-lg-first">
                         <div class="bg-black text-center h-100 project">
@@ -154,7 +322,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section>-->
         <!-- Signup-->
         <section class="signup-section" id="signup">
             <div class="container px-4 px-lg-5">
@@ -209,7 +377,7 @@
                                 <i class="fas fa-map-marked-alt text-primary mb-2"></i>
                                 <h4 class="text-uppercase m-0">Address</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50">4923 Market Street, Orlando FL</div>
+                                <div class="small text-black-50">Celebes Coconut Corporation, Purok 4, Barangay Banza, Butuan City, Philippines, 8600</div>
                             </div>
                         </div>
                     </div>
@@ -219,7 +387,7 @@
                                 <i class="fas fa-envelope text-primary mb-2"></i>
                                 <h4 class="text-uppercase m-0">Email</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50"><a href="#!">hello@yourdomain.com</a></div>
+                                <div class="small text-black-50"><a href="#!">celebes.marketing@gmail.com</a></div>
                             </div>
                         </div>
                     </div>
@@ -227,9 +395,9 @@
                         <div class="card py-4 h-100">
                             <div class="card-body text-center">
                                 <i class="fas fa-mobile-alt text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Phone</h4>
+                                <h4 class="text-uppercase m-0">Telephone</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50">+1 (555) 902-8832</div>
+                                <div class="small text-black-50">+63 85 225-9852</div>
                             </div>
                         </div>
                     </div>
@@ -242,7 +410,7 @@
             </div>
         </section>
         <!-- Footer-->
-        <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; Your Website 2022</div></footer>
+        <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; Celebes Coconut Corporation 2023</div></footer>
         
 @endsection
         

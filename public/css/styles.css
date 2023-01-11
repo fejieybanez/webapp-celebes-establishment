@@ -11472,6 +11472,30 @@ body {
   letter-spacing: 0.0625em;
 }
 
+*{
+  margin: 0;
+  padding: 0;
+
+}
+/*
+.cell{
+  width: 33%;
+  height: 350px;
+  margin: 0 15px;
+  overflow: hidden;
+  border-radius: 8px;
+  border-style:groove;
+  border-color:limegreen;
+}
+.cell img{
+width: 100%;
+height: 350px; 
+object-fit: cover;
+position: center;
+
+}*/
+
+
 #mainNav {
   min-height: 3.5rem;
   background-color: #fff;
@@ -11563,7 +11587,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/bg-masthead6.jpg");
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/bg-masthead7.jpg");
   backdrop-filter: blur(500px);
   -webkit-backdrop-filter: blur(500px);
   height: 100%;
@@ -11630,7 +11654,7 @@ body {
 .about-section p {
   margin-bottom: 5rem;
 }
-
+/* 
 .products-section {
   padding: 10rem 0;
 }
@@ -11656,7 +11680,7 @@ body {
     border-width: 0.25rem;
     width: 30%;
   }
-}
+}*/
 
 .signup-section {
   padding: 10rem 0;
@@ -11672,7 +11696,7 @@ body {
   height: auto;
   font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 80%;
-  text-transform: uppercase;
+  text-transform: lowercase;
   letter-spacing: 0.15rem;
   border: 0;
 }
