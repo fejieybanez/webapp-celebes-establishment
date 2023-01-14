@@ -37,6 +37,21 @@
        
         <!-- About-->
         <section class="about-section text-center" id="about">
+        <div class="about-section">
+        <div class="inner-container">
+            <h1>About Us</h1>
+            <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus velit ducimus, enim inventore earum, eligendi nostrum pariatur necessitatibus eius dicta a voluptates sit deleniti autem error eos totam nisi neque voluptates sit deleniti autem error eos totam nisi neque.
+            </p>
+            <div class="skills">
+                <span>Web Design</span>
+                <span>Photoshop & Illustrator</span>
+                <span>Coding</span>
+            </div>
+        </div>
+    </div>
+
+        <!--<section class="about-section text-center" id="about">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8">
@@ -52,7 +67,7 @@
             </div>
         </section>
          <!-- Mission-->
-        <section class="mission-section text-center" id="mission">
+       <!-- <section class="mission-section text-center" id="mission">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8">
@@ -63,8 +78,9 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- Product -->
+        </section>-->
+
+        <!-- Product --> 
     <section class="products-section bg-light" id="products">
     <div class="container px-4 px-lg-55">
                 <!-- Featured Product Row-->
@@ -198,7 +214,7 @@
                 </div>
             </div><!--Carousel Inner Ends Here-->
             <!--Left and Right Controls-->
-            <a class= "left carousel-control" href="#slider" data-slide="prev">
+           <a class= "left carousel-control" href="#slider" data-slide="prev">
             <span class="glyphicon glyphicon-chevron-left"></span>
             <span class="sr-only"> Previous</span>    
         </a>
@@ -208,47 +224,8 @@
         </a>
     </div> <!--Carousel Ends  Here-->
 </div> <!--Container Ends Here-->
-
-        <!--<section class="products-section bg-light" id="products">
-            <div class="container px-4 px-lg-55">
-                <!-- Featured Product Row-->
-            <!--    <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/product1.jpg" alt="..." width="650" height="20"/></div>
-                    <div class="col-xl-4 col-lg-5">
-                        <div class="featured-text text-center text-lg-left">
-                            <h4>Celebes Coconut Products</h4>
-                            <p class="text-black-50 mb-0"></p>Celebes Coconut Corporation is a trusted manufacturer and exporter of the "Organic Certified" Banana Chips, Coconut Charcoal, Coconut Cream, Coconut Flour, Coconut Juice, Coconut Milk, Coconut Sugar, Coconut Water, Creamed Coconut, Crude Coconut Oil, Dehydrated Fruits, Desiccated Coconut, Frozen Coconut Meat, RBD Coconut Oil, Virgin Coconut Oil and Coconut Water Concentrate.</p>
-                        </div>
-                    </div>
-                </div>
-</div>
-        <div class="main-carousel">
-             <div class="cell"><img src="assets/img/product2.jpg"></div>
-             <div class="cell"><img src="assets/img/product3.jpg"></div>
-             <div class="cell"><img src="assets/img/product4.jpg"></div>
-             <div class="cell"><img src="assets/img/productb.jpg"></div>
-             <div class="cell"><img src="assets/img/product11.jpg"></div>
-             <div class="cell"><img src="assets/img/product7.jpg"></div>
-             <div class="cell"><img src="assets/img/product8.jpg"></div>
-             <div class="cell"><img src="assets/img/product9.jpg"></div>
-
-</div>
-
-<!-- JavaScript -->
-<!--<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-<script type="text/javascript">
-    $('.main-carousel').flickity({
-  // options
-  cellAlign: 'left',
-  wrapAround:true,
-  freeScroll: true
-});
-
-</script>
-
-
-        
-        <!-- Projects-->
+</section>
+<!-- Projects-->
 <!--<section class="products-section bg-light" id="products">
             <div class="container px-4 px-lg-5">
                 <!-- Featured Product Row-->
@@ -368,7 +345,7 @@
             </div>
         </section>
         <!-- Contact-->
-        <section class="contact-section bg-black">
+        <section class="contact-section">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5">
                     <div class="col-md-4 mb-3 mb-md-0">
@@ -394,7 +371,7 @@
                     <div class="col-md-4 mb-3 mb-md-0">
                         <div class="card py-4 h-100">
                             <div class="card-body text-center">
-                                <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                                <i class="fas fa-phone-alt text-primary mb-2"></i>
                                 <h4 class="text-uppercase m-0">Telephone</h4>
                                 <hr class="my-4 mx-auto" />
                                 <div class="small text-black-50">+63 85 225-9852</div>
@@ -403,14 +380,14 @@
                     </div>
                 </div>
                 <div class="social d-flex justify-content-center">
-                    <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                    <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                    <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
+                    <a class="mx-2" href="https://twitter.com/celebescoconut/"><i class="fab fa-twitter"></i></a>
+                    <a class="mx-2" href="https://web.facebook.com/celebescoconutcorp"><i class="fab fa-facebook-f"></i></a>
+                    <a class="mx-2" href="https://www.instagram.com/celebes_coconut_corporation/"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
         </section>
         <!-- Footer-->
-        <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; Celebes Coconut Corporation 2023</div></footer>
+        <footer class="footer small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; Celebes Coconut Corporation 2023</div></footer>
         
 @endsection
         

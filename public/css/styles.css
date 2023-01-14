@@ -11477,24 +11477,6 @@ body {
   padding: 0;
 
 }
-/*
-.cell{
-  width: 33%;
-  height: 350px;
-  margin: 0 15px;
-  overflow: hidden;
-  border-radius: 8px;
-  border-style:groove;
-  border-color:limegreen;
-}
-.cell img{
-width: 100%;
-height: 350px; 
-object-fit: cover;
-position: center;
-
-}*/
-
 
 #mainNav {
   min-height: 3.5rem;
@@ -11646,14 +11628,91 @@ position: center;
     font-size: 1.25rem;
   }
 }
-
+/*
 .about-section {
   padding-top: 10rem;
   background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
 }
 .about-section p {
   margin-bottom: 5rem;
+} */ 
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans",sans-serif;
+    box-sizing: border-box;
 }
+/*
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
+} */
+
+.about-section{
+    background: url(".../assets/img/about1.jpg") no-repeat left;
+    background-size: 55%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.inner-container{
+    width: 55%;
+    float: right;
+    background-color: #fdfdfd;
+    padding: 150px;
+}
+
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.text{
+    font-size: 13px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
+}
+/*
+@media screen and (max-width:1200px){
+    .inner-container{
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .about-section{
+        padding: 0;
+    }
+    .inner-container{
+        padding: 60px;
+    }
+}
+*/
 /* 
 .products-section {
   padding: 10rem 0;
@@ -11684,7 +11743,7 @@ position: center;
 
 .signup-section {
   padding: 10rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/bg-signup.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/bg-contact.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11703,6 +11762,13 @@ position: center;
 
 .contact-section {
   padding-top: 5rem;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/bg-contact2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background: blur(500px);
+  -webkit-backdrop-filter: blur(500px);
 }
 .contact-section .card {
   border: 0;
@@ -11720,16 +11786,16 @@ position: center;
   width: 3rem;
 }
 .contact-section .social {
-  margin-top: 5rem;
+  margin-top: 2rem;
 }
 .contact-section .social a {
   text-align: center;
   height: 3rem;
   width: 3rem;
-  background: rgba(255, 255, 255, 0.1);
+  background:rgba(103, 194, 156, 0.9);
   border-radius: 100%;
   line-height: 3rem;
-  color: rgba(255, 255, 255, 0.3);
+  color: white;
 }
 .contact-section .social a:hover {
   color: rgba(255, 255, 255, 0.5);
@@ -11739,5 +11805,6 @@ position: center;
 }
 
 .footer {
-  padding: 5rem 0;
+  padding: 1.5rem 0;
+  background:black;
 }

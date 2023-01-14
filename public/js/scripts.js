@@ -23,6 +23,9 @@ window.addEventListener('DOMContentLoaded', event => {
 
     };
 
+
+    
+
     // Shrink the navbar 
     navbarShrink();
 
@@ -49,6 +52,6 @@ window.addEventListener('DOMContentLoaded', event => {
                 navbarToggler.click();
             }
         });
-    });
+    }); 
 
 });
